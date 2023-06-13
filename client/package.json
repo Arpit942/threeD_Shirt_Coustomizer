@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy" : "http://localhost:8080",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,7 +18,8 @@
     "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
     "three": "^0.150.1",
-    "valtio": "^1.10.3"
+    "valtio": "^1.10.3",
+    "vite-plugin-env-compatible": "^1.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
